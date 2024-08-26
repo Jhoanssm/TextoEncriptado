@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+}
+body::before {
+    
+    background-repeat: no-repeat;
+    background-position: left;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    opacity: 0.2;
+}
+
+
+body{
+    background-color: aqua;
+    justify-content: space-between;
+    padding: 12% 12%; 
+    background-image: url(/img/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg);
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    padding-top: 6%;
+    align-items: center;
+    
+}
+
+#textoEncriptado{
+    border-radius: 2%;
+    border-color: blueviolet;
+    color: blueviolet;
+    
+}
+
+strong{
+    color:rgb(222, 198, 236);
+}
+
+button{
+    width: 48%;
+    border-radius: 12px;
+    justify-content: space-between;
+    text-align: center;
+} 
+.texto-container {
+    position: relative;
+    display: inline-block;
+}
+
+textarea {
+    border-radius: 30px;
+    opacity: 0.5;
+    padding: 17% 2%;
+
+}
+
+
+.encryptorbutton { 
+    background-color: rgb(135, 25, 199);
+    color: aliceblue;
+    
+}
+
+.decryptorbutton { 
+    background-color: rgb(135, 25, 199);;
+    border-style: double;
+    border-color: blue;
+    color: white;
+}
+
+.encryptorbutton:hover{
+    background-color: blue;
+}
+.decryptorbutton:hover{
+    background-color: blue;;
+}
+#copybutton{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-color: blue;
+    background-color: blue;
+}
+
+/* .copybutton {
+    display: none;
+} */
